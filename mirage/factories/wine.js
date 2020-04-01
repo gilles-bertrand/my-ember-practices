@@ -1,0 +1,11 @@
+import { Factory } from 'ember-cli-mirage';
+import faker from 'faker';
+
+export default Factory.extend({
+    title(){
+        return faker.random.word()
+    },
+    description(){
+        return faker.lorem.paragraph()
+    }
+});

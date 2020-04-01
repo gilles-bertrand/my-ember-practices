@@ -7,4 +7,8 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
+  this.route('wines', function() {
+    this.route('details',{path:':slug'});
+  });
+  this.route('shop');
 });

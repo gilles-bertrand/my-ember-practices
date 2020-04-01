@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'playground',
+    podModulePrefix: 'playground/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
